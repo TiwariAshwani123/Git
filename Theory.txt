@@ -1,0 +1,27 @@
+Commands - 
+
+1. git init - To initialize and make some git repository in some chosen folder
+
+2. git status - It shows that how many files are in Staging area or Untracked
+
+3. git add (file_name) - This command is used to add the file from Untracked to Staging area
+
+4. git add .   - This command is used to add all the files which are Untracked to Staging area
+
+5. git commit -m "(comment)" - It is used to commit the given file which is in staging area 
+
+6. git restore --staged (file_name) - It can take back file from Staging area to Untracked files
+
+7. git log  - It is used to see how many commit you had placed
+
+8. rm -rf (file_name)  - It is used to delete a particular file ....(If you delete something, make sure to commit that deleted part also)
+
+9. git reset (commit_code)  - If you commit something or delete something by mistake and commit it ...you can restore it later ...just paste
+				the commit code inside command which you need to show on top when we do "git log" and all the other commit 
+				which was above that commit will restore.
+
+10. git stash - 
+
+11. git remote add origin (url)  - It is used to connect your local git folder to your Git hub profile
+
+12. 
