@@ -1,35 +1,60 @@
 Commands - 
 
-1. git init - To initialize and make some git repository in some chosen folder
+1. git init                          - 	To initialize and make some git repository in some chosen folder
 
-2. git status - It shows that how many files are in Staging area or Untracked
+2. git status                        - 	It shows that how many files are in Staging area or Untracked
 
-3. git add (file_name) - This command is used to add the file from Untracked to Staging area
+3. git add (file_name)               - 	This command is used to add the file from Untracked to Staging area
 
-4. git add .   - This command is used to add all the files which are Untracked to Staging area
+4. git add .                         - 	This command is used to add all the files which are Untracked to Staging area
 
-5. git commit -m "(comment)" - It is used to commit the given file which is in staging area 
+5. git commit -m "(comment)"         -  It is used to commit the given file which is in staging area 
 
-6. git restore --staged (file_name) - It can take back file from Staging area to Untracked files
+6. git restore --staged (file_name)  - 	It can take back file from Staging area to Untracked files
 
-7. git log  - It is used to see how many commit you had placed
+7. git log           		     -  It is used to see how many commit you had placed
 
-8. rm -rf (file_name)  - It is used to delete a particular file ....(If you delete something, make sure to commit that deleted part also)
+8. rm -rf (file_name)  		     - 	It is used to delete a particular file ....(If you delete something, make sure to commit that 						deleted part also)
 
-9. git reset (commit_code)  - If you commit something or delete something by mistake and commit it ...you can restore it later ...just paste
-				the commit code inside command which you need to show on top when we do "git log" and all the other commit 
-				which was above that commit will restore.
+9. git reset (commit_code)           - 	If you commit something or delete something by mistake and commit it ...you can restore it 						later ...just paste the commit code inside command which you need to show on top when we do 
+					"git log" and all the other commit which was above that commit will restore
+
+99. git reset --hard(commit_code)    - 	If you commit something or delete something by mistake and commit it ...you can restore it 						later ...just paste the commit code inside command which you need to show on top when we 						do "git log" and all the other commit which was above that commit will restore in git as 						well as in vs code or in IDE also
+
 
 10. git stash - 
 
-11. git remote add origin (url)  - It is used to connect your local git folder to your Git hub profile
+11. git remote add origin (url)      - 	It is used to connect your local git folder to your Git hub profile
 
-12. git clone (url)  - It is used to pull GitHub folder and make a copy in your local area
+12. git clone (url)                  - 	It is used to pull GitHub folder and make a copy in your local area
 
-13. ls  - It shows all the files inside the chosen folder
+13. ls  			     - 	It shows all the files inside the chosen folder
 
-14. ls -a  - It shows all the hidden files inside the chosen folder
+14. ls -a     			     - 	It shows all the hidden files inside the chosen folder
 
-15. rm -rf .git  - To uninitialized git from a folder
+15. rm -rf .git  		     - 	To uninitialized git from a folder
 
-16. 
+16. git remote -v  		     - 	It shows the path that which GitHub repository  is connected with our local folder
+
+17. git branch   		     -  It is used to check that we are currently in which branch
+
+18. git branch -M  		     - 	To change any branch name or to rename any branch
+
+19. git push origin (branch_name)    -  It push the file to GitHub repository which is connected with it
+
+20. git push -u origin (branch_name) -  If we push anything for long time in future we use this command ..so afterwards when we need to 
+					push anything , we just have to type "git push" and the file is pushed in that branch only 
+
+21. git checkout (branch_name)       - 	It is used to change the current branch and move to selected branch
+
+22. git checkout -b (new_branch_name)  - It is used to change the current branch and move towards the new branch which is created directly
+
+23. git branch -d (branch_name)        - It is used to delete the branch which is written
+
+24. git diff (branch_name)  	       - It is used to show the difference between present branch and the selected branch
+
+25. git merget (branch_name)	       - It is used to merge the current branch and the selected branch
+
+26. git push -f origin master 	       - It is used to forcefully push the file to GitHub
+	
+
